@@ -1,0 +1,26 @@
+.header {
+  text-align: center;
+}
+
+.fish__image {
+  max-height: 10rem;
+}
+
+.container {
+  display: flex;
+}
+
+.bordered {
+}
+
+.location__image {
+  max-height: 10rem;
+}
+
+.flex-container-left {
+  flex: 3;
+}
+
+.tips {
+  flex: 1;
+}
