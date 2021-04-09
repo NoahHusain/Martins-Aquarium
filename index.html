@@ -19,7 +19,7 @@
     </header>
     <main class="container">
       <article class="flex-container-left bordered">
-        <h2>Fishes</h2>
+        <h2 class="title">Fishes</h2>
         <section class="fishes bordered bottom-space">
           <div class="fish bordered">
             <div class="fish__name"><b>Charles</b></div>
@@ -111,12 +111,30 @@
           </div>
           <!--  -->
         </section>
-        <h2>Quotes</h2>
+        <h2 class="title">Quotes</h2>
+        <div class="quote">
+          <span class="quote__text"
+            >The largest Kingfish ever caught was over 5 feet long!</span
+          >
+        </div>
+        <div class="quote">
+          <span class="quote__text"
+            >The sailfish is the fastest swimmer in the world at a blazing fast
+            70 miles per hour in the water!</span
+          >
+        </div>
+        <div class="quote">
+          <span class="quote__text"
+            >The amazing Spotted Climbing Perch is able to 'gulp' oxygen from
+            the air and can crawl over land using its strong pectoral fins in
+            search of water.</span
+          >
+        </div>
         <section class="quotes bordered"></section>
-        <h2>Locations</h2>
+        <h2 class="title">Locations</h2>
         <section class="locations bordered">
           <div>
-            <div><b>Costa Rica</b></div>
+            <div class="location__name"><b>Costa Rica</b></div>
             <img
               class="location__image"
               src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/ea/a5/caption.jpg?w=1000&h=600&s=1"
@@ -125,7 +143,7 @@
             <div>Fish Harvested: Charles</div>
           </div>
           <div>
-            <div><b>The Bahamas</b></div>
+            <div class="location__name"><b>The Bahamas</b></div>
             <img
               class="location__image"
               src="https://imagesvc.meredithcorp.io/v3/jumpstartpure/image?url=https://cf-images.us-east-1.prod.boltdns.net/v1/static/3281700261001/b1811d96-0abf-42b7-8710-0df459e3dc20/5112cefb-ff41-4b4d-9de4-eee252ecb4a8/1280x720/match/image.jpg&w=1280&h=720&q=90&c=cc"
@@ -134,7 +152,7 @@
             <div>Fish Harvested: Coral, Aqua</div>
           </div>
           <div>
-            <div><b>Prince Edward Isles, Canada</b></div>
+            <div class="location__name"><b>Prince Edward Isles, Canada</b></div>
             <img
               class="location__image"
               src="https://images.fusionentertainment.com/news/images/6-Boats-Orkney-Island_1600x900.jpg?auto=format&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=720&q=82&w=1280&s=dd69cb4547297cc9c3c9e385eae806ea"
@@ -143,7 +161,7 @@
             <div>Fish Harvested: Shaun, Steve</div>
           </div>
           <div>
-            <div><b>Key West, Florida</b></div>
+            <div class="location__name"><b>Key West, Florida</b></div>
             <img
               class="location__image"
               src="https://images.fusionentertainment.com/news/images/3-Fishing-Florida-Keys_1600x900.jpg?auto=format&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=720&q=82&w=1280&s=e2847d33991c5e172bd539f7bfb64324"
@@ -155,9 +173,10 @@
           <div class="location__fish-harvested"></div>
         </section>
       </article>
-      <h2>Tips</h2>
-      <aside class="tips">
-        <ul>
+
+      <aside class="tips frame">
+        <h2 class="tips-header">Tips</h2>
+        <ul class="tips-text">
           <li>Don't let them die</li>
           <li>Tell them that you love them</li>
           <li>Keep fish in water</li>

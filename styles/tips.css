@@ -1,3 +1,11 @@
 .tips {
   flex: 1;
 }
+
+.tips-header {
+  text-align: center;
+}
+
+/* .tips-text {
+  text-align: center;
+} */

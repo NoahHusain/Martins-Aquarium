@@ -10,3 +10,7 @@
   max-height: 10rem;
   max-width: 22rem;
 }
+
+.fish__name {
+  text-align: center;
+}

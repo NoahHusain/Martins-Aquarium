@@ -11,6 +11,7 @@ body {
 .header {
   text-align: center;
   font-size: 24px;
+  margin: 20px;
 }
 
 .welcome-message {
@@ -23,14 +24,18 @@ body {
   display: flex;
 }
 
-.bordered {
-  border: 1px goldenrod dotted;
+.frame {
+  border: red 2px solid;
 }
 
 .flex-container-left {
-  flex: 3;
+  flex: 4;
 }
 
 .bottom-space {
   margin: 3rem;
+}
+
+.title {
+  text-align: center;
 }

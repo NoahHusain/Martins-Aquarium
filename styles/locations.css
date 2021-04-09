@@ -8,3 +8,7 @@
   max-height: 10rem;
   max-width: 22rem;
 }
+
+.location__name {
+  text-align: center;
+}
