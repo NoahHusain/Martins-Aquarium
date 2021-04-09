@@ -1,0 +1,9 @@
+.fishes {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.fish__image {
+  max-height: 10rem;
+  max-width: 22rem;
+}

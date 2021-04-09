@@ -1,13 +1,22 @@
-body {
+@import url(../styles/tips.css);
+@import url(../styles/locations.css);
+@import url(../styles/fishes.css);
+@import url(../styles/quotes.css);
+
+*body {
   background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
   text-align: center;
+  font-size: 24px;
 }
 
-.fish__image {
-  max-height: 10rem;
+.welcome-message {
+  text-align: center;
+  font-size: 24px;
+  word-wrap: break-word;
 }
 
 .container {
@@ -15,22 +24,9 @@ body {
 }
 
 .bordered {
-  placeholder: temp;
-}
-
-.location__image {
-  max-height: 10rem;
+  border: 4px red solid;
 }
 
 .flex-container-left {
   flex: 3;
-}
-
-.tips {
-  flex: 1;
-}
-
-img {
-  width: 600px;
-  height: 600px;
 }
