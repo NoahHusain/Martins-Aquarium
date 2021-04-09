@@ -7,8 +7,8 @@
   flex-basis: 16%;
 }
 .fish__image {
-  max-height: 10rem;
-  max-width: 22rem;
+  height: 240px;
+  width: 360px;
 }
 
 .fish__name {
