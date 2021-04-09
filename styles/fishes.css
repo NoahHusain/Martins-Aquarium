@@ -1,8 +1,11 @@
 .fishes {
   display: flex;
-  /* justify-content: center; */
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
+.fish {
+  flex-basis: 16%;
+}
 .fish__image {
   max-height: 10rem;
   max-width: 22rem;
